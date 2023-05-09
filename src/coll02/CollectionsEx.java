@@ -33,7 +33,7 @@ public class CollectionsEx {
 		Collections.reverse(myList); // 요소의 데이터를 역순으로 정렬
 		printList(myList);
 
-		int index = Collections.binarySearch(myList, "스타워즈") + 1;
+		int index = Collections.binarySearch(myList, "아바타") + 1;
 		System.out.println("아바타는 " + index + "번째 요소입니다.");
 
 	}
